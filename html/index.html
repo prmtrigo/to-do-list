@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,35 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>To Do List</title>
 </head>
-<body>
-    <header>
-        <h1>Minhas Tarefas</h1>
-        <form action id="new-task">
-            <input type="text" id="new-task-input" placeholder="Qual a sua tarefa?">
-            <input type="submit" id="new-task-submit" value="Adicionar tarefa">
-        </form>
-    </header>
 
-    <main>
-        <section class="task-list">
-            <h2>Tarefas</h2>
-            <div id="tasks">
-                <div class="task">
-                    <div class="content">
-                        <input type="text" class="text" value="Minha Tarefa Legal" readonly>
-                    </div>
-                    <div class="actions">
-                        <button class="edit">Editar</button>
-                        <button class="delete">Deletar</button>
+<body>
+    <div class="task-container">
+        <header>
+            <h1>Minhas Tarefas</h1>
+            <form action id="new-task">
+                <input type="text" id="new-task-input" placeholder="Qual a sua tarefa?">
+                <input type="submit" id="new-task-submit" value="Adicionar tarefa">
+            </form>
+        </header>
+
+        <main>
+            <section class="task-list">
+                <h2>Tarefas</h2>
+                <div id="tasks">
+                    <div class="task">
+                        <div class="content">
+                            <input type="text" class="text" value="Minha Tarefa Legal" readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Editar</button>
+                            <button class="delete">Deletar</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
     <script src="/js/sricpt.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('/images/toronto.jpg');
+    -webkit-font-smoothing: antialiased; 
+    background-size: cover;
+    color: #fff;
+}
+
+.task-container{
+    position: absolute;
+    background-color: rgba(71, 67, 67, 0.644);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1em;
+    padding: 2em;
+}
