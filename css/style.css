@@ -8,15 +8,31 @@
 
 body{
     background-image: url('/images/toronto.jpg');
-    -webkit-font-smoothing: antialiased; 
     background-size: cover;
+    -webkit-font-smoothing: antialiased; 
+    background-repeat: no-repeat;
+    height: 100vh;
     color: #fff;
 }
+
+header{
+    padding: 2rem 2rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
 
 .task-container{
     position: absolute;
     background-color: rgba(71, 67, 67, 0.644);
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 1em;
