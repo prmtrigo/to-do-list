@@ -75,19 +75,44 @@ input, button{
 }
 
 main{
-    padding: 2rem;
     padding-top: 1rem;
+    margin-left: -2rem;
 	max-width: 800px;
 	width: 100%;
-	margin: 0 auto;
 }
 
 main h2{
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
-#tasks{
+.task{
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: row;
+}
 
+.text{
+    color: rgba(197, 193, 193, 0.863);
+    background: rgba(34, 33, 33, 0.89);
+}
+
+.edit{
+    margin: 0 2rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    background: ;
+}
+
+.delete{
+    margin: 0 -1rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    background-color: rgba(221, 215, 215, 0.644);
+    transition: 0.3s;
+}
+
+.delete:hover{
+    color: rgba(221, 215, 215);
+    background-color: rgb(168, 23, 30, 0.644);
 }
