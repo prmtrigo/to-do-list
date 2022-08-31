@@ -12,7 +12,7 @@ body{
     -webkit-font-smoothing: antialiased; 
     background-repeat: no-repeat;
     height: 100vh;
-    color: #fff;
+    color: rgb(238, 231, 231);
 }
 
 header{
@@ -28,6 +28,18 @@ header h1{
     margin-bottom: 1rem;
 }
 
+#new-task-form {
+	display: flex;;
+}
+
+input, button{
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background: rgba(66, 64, 64, 0.815);
+    font-size: 1rem;
+    padding: .6rem;
+}
 
 .task-container{
     position: absolute;
@@ -37,4 +49,45 @@ header h1{
     transform: translate(-50%,-50%);
     border-radius: 1em;
     padding: 2em;
+}
+
+#new-task{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#new-task-submit{
+    color: rgb(23, 168, 23);
+    background-color: rgba(221, 215, 215, 0.644);
+    border-radius: 50%;
+    width: 2.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#new-task-submit:hover{
+    color: rgb(221, 215, 215);
+    background-color: rgba(23, 168, 23, 0.644);
+}
+
+.task-list{
+    transform: translate(10%,10%);
+}
+
+main{
+    padding: 2rem;
+    padding-top: 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+main h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#tasks{
+
 }
